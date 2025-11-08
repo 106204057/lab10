@@ -16,6 +16,6 @@
         header('Location: profile.php');
         exit();
     } else {
-        echo "Incorrect username or password.";
+        echo "Incorrect username or password. Please try again. <a href='login_page.php'>Go back to login page</a>.";
     }
 ?>
